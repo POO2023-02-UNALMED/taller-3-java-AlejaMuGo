@@ -25,9 +25,9 @@ public class TV {
     public Marca getMarca(){
         return marca;
     }
-    public void setCanal(int c){
+    public void setCanal(int canal){
     	if(canal>=1 && canal<=120 && estado == true){
-            canal=c;}
+            this.canal=canal;}
     }
     public int getCanal(){
         return canal;
@@ -61,13 +61,13 @@ public class TV {
         return estado;
     }
     public void canalUp(){
-        if(canal>=1 && canal<=120 && estado == true){
+        if(canal>=1 && canal<120 && estado == true){
             canal++;
         }
 
     }
     public void canalDown(){
-        if(canal>=1 && canal<=120 && estado == true){
+        if(canal>1 && canal<=120 && estado == true){
             canal--;
         }
 
