@@ -26,7 +26,8 @@ public class TV {
         return marca;
     }
     public void setCanal(int c){
-            canal=c;
+    	if(canal>=1 && canal<120 && estado == true){
+            canal=c;}
     }
     public int getCanal(){
         return canal;
@@ -38,7 +39,8 @@ public class TV {
         return precio;
     }
     public void setVolumen(int volumen){
-            this.volumen=volumen;
+    	if(volumen>=0 && volumen<7 && estado == true){
+            this.volumen=volumen;}
     }
     public int getVolumen(){
         return volumen;
@@ -59,24 +61,24 @@ public class TV {
         return estado;
     }
     public void canalUp(){
-        if(canal>=1 && canal<=120 && estado == true){
+        if(canal>=1 && canal<120 && estado == true){
             canal++;
         }
 
     }
     public void canalDown(){
-        if(canal>=1 && canal<=120 && estado == true){
+        if(canal>=1 && canal<120 && estado == true){
             canal--;
         }
 
     }
     public void volumenUp(){
-        if(volumen>=0 && volumen<=7 && estado == true){
+        if(volumen>=0 && volumen<7 && estado == true){
         volumen++;
         }
     }
     public void volumenDown(){
-        if(volumen>=0 && volumen<=7 && estado == true){
+        if(volumen>=0 && volumen<7 && estado == true){
             volumen--;
         }
     }
