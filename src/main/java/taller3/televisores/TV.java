@@ -25,8 +25,8 @@ public class TV {
         return marca;
     }
     public void setCanal(int c){
-        if(c>=1 && c<=120 && estado == true)
-            canal=c;
+        if(c>=1 && c<=120 && estado == true) {
+            canal=c;}
     }
     public int getCanal(){
         return canal;
@@ -38,8 +38,8 @@ public class TV {
         return precio;
     }
     public void setVolumen(int v){
-        if(v>=0 && v<=7 && estado == true)
-            volumen=v;
+        if(v>=0 && v<=7 && estado == true) {
+            volumen=v;}
     }
     public int getVolumen(){
         return volumen;
