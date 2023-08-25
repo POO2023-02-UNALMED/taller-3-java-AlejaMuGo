@@ -14,19 +14,19 @@ public class Control {
     }
 
     public void canalUp() {
-        tv.canalUp();
+        tv.CanalUp();
     }
 
     public void canalDown() {
-        tv.canalDown();
+        tv.CanalDown();
     }
 
     public void volumenUp() {
-        tv.volumenUp();
+        tv.VolumenUp();
     }
 
     public void volumenDown() {
-        tv.volumenDown();
+        tv.VolumenDown();
     }
 
     public void setCanal(int canal) {
