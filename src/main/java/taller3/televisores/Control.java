@@ -1,4 +1,4 @@
-package taller3.televisores;
+
 public class Control {
     TV tv;
     public void enlazar(TV tv){
@@ -14,19 +14,19 @@ public class Control {
     }
 
     public void canalUp() {
-        tv.CanalUp();
+        tv.canalUp();
     }
 
     public void canalDown() {
-        tv.CanalDown();
+        tv.canalDown();
     }
 
     public void volumenUp() {
-        tv.VolumenUp();
+        tv.volumenUp();
     }
 
     public void volumenDown() {
-        tv.VolumenDown();
+        tv.volumenDown();
     }
 
     public void setCanal(int canal) {
